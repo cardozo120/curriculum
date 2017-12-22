@@ -1,0 +1,141 @@
+/*Perfil*/
+.cardPerfil{
+width: 50%;
+margin: auto;
+}
+.menu2 {
+  text-align: center;
+  height: 30px;
+  padding-top: 10px;
+}
+.primary-top-bar2{
+  background: -webkit-linear-gradient(bottom, #34bfa3 50%  , #93ead9 90%); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom, #34bfa3 50%  , #93ead9 90%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom, #34bfa3 50%  , #93ead9 90%); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to top, #34bfa3 50%  , #93ead9 90%);
+  color: #fff;
+}
+/*Tabla Datos*/
+.listakpi{
+  text-align: center;
+}
+.botonenmedio{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.botonenmedio i{
+margin-right: 30px;
+display: inline-block;x
+}
+.primero{
+margin-left: 32%;
+}
+.calendario{
+  margin-left: 10%;
+}
+
+.btn-primary{
+  margin-right: 15px;
+}
+.cursor{
+  cursor: pointer;
+}
+
+
+
+@media (min-width: 992px){
+.primary-top-bar2{
+  position: fixed;
+  top: 60px;
+  height: 50px;
+  font-size: 17px;
+}
+.primary-top-bar2 a{
+  color: white;
+}
+.primero{
+margin-left: 42%;
+}
+.calendario{
+  margin-left: 31%;
+}
+}
+
+
+@media  (max-width: 991px) and (min-width: 767px){
+  .primary-top-bar2{
+    position: fixed;
+    top: 60px;
+    height: 50px;
+    font-size: 17px;
+  }
+  .primary-top-bar2 a{
+    color: #fff;
+  }
+  .primary-top-bar2 a:hover{
+    color: #aaa;
+  }
+}
+
+@media (max-width: 766px) {
+  .primero{
+  margin-left: 43%;
+  }
+  .calendario{
+    margin-left: 35%;
+  }
+  .cardPerfil{
+  width: 100%;
+  margin: auto;
+  }
+}
+@media (min-width:601px) {
+  .cerrar{
+display: none;
+  }
+}
+@media (max-width: 600px) {
+  .primero{
+  margin-left: 35%;
+  }
+  .calendario{
+    margin-left: 20%;
+  }
+
+  .close{
+    display: none;
+  }
+  .fileinput-preview{
+    margin-left:20%;
+  }
+}
+/*Tablas*/
+
+.botones{
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.botones i {
+cursor: pointer;
+}
+
+
+.acciones{
+  text-align: center;
+}
+
+.acciones i{
+  font-size: 16px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.Rguardados {
+  color: #fff;
+ cursor:pointer;
+}
+.Rguardados:hover {
+  color: #fff;
+}
