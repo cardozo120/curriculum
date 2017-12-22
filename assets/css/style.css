@@ -2609,6 +2609,9 @@ ul.tabs-nav > li > a {
   color: #5867dd;
   border-bottom: 2px solid #5867dd;
   background: none; }
+  .nav-link i{
+    font-size: 20px;
+  }
 .nav-tabs .nav-link {
   border: none; }
   .nav-tabs .nav-link.active {
