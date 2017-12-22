@@ -61,9 +61,19 @@ margin-left: 42%;
 .calendario{
   margin-left: 31%;
 }
+
 }
-
-
+/* Top Bar */
+@media (max-width: 1200px) {
+  .top-right-nav span {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .top-right-nav {
+    display: none;
+  }
+}
 @media  (max-width: 991px) and (min-width: 767px){
   .primary-top-bar2{
     position: fixed;
@@ -110,6 +120,7 @@ display: none;
   .fileinput-preview{
     margin-left:20%;
   }
+
 }
 /*Tablas*/
 

@@ -3164,31 +3164,7 @@ text-align: center;}
         margin-right: 0px;
         width: 35px; }
 
-                .top-right-nav3 {
-                  margin: 0;
-                  padding: 0;
-                  float: right;
-                  padding-right: 0px; }
-                  .top-right-nav3 > li {
-                    display: block;
-                    float: right;
-                    position: relative;
-                    padding-right: 65px; }
-                    .top-right-nav3 > li i {
-                      vertical-align: middle;
-                      display: inline-block;
-                      margin-left: 0;
-                      font-size: 16px;
-                    padding-right: 10px; }
-                    .top-right-nav3 > li > a {
-                      display: block;
-                      line-height: 60px;
-                      padding: 0px 15px;
-                      color: #5867dd; }
-                      .top-right-nav3 > li > a img {
-                        border: 2px solid rgba(255, 255, 255, 0.5);
-                        margin-right: 0px;
-                        width: 35px; }
+
 
 .icon-dropdown .badge {
   position: absolute;
@@ -4248,9 +4224,6 @@ figure {
   .primary-top-bar2{
     display: none;
   }
-    .top-right-nav span {
-      display: none;
-    }
 
   .footer {
     text-align: center; }
