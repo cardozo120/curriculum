@@ -2,6 +2,7 @@
 .cardPerfil{
 width: 90%;
 margin: auto;
+margin-bottom: 30px;
 }
 /* Academics */
 .divarroyo{
@@ -11,7 +12,19 @@ margin: auto;
 .arroyo{
   display: block;
    margin: auto;
-   width: 50%;
+   width: 49%;
+ height: auto;
+}
+.arroyo2{
+  display: block;
+   margin: auto;
+   width: 41%;
+ height: auto;
+}
+.arroyo3{
+  display: block;
+   margin: auto;
+   width: 38%;
  height: auto;
 }
 .boton{
@@ -19,6 +32,9 @@ margin: auto;
    margin: auto;
    width: 5%;
    cursor: pointer;
+}
+.tec{
+  width: 40%;
 }
 .menu2 {
   text-align: center;
