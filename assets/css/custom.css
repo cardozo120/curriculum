@@ -4,6 +4,7 @@ width: 90%;
 margin: auto;
 margin-bottom: 30px;
 }
+
 /* Academics */
 .divarroyo{
   display: flex;
@@ -15,16 +16,95 @@ margin-bottom: 30px;
    width: 49%;
  height: auto;
 }
+.irvin{
+  display: block;
+   margin: auto;
+   width: 49%;
+ height: auto;
+}
 .arroyo2{
   display: block;
    margin: auto;
-   width: 41%;
+   margin-top: -10.5%;
+   width: 50%;
  height: auto;
 }
 .arroyo3{
   display: block;
    margin: auto;
    width: 38%;
+ height: auto;
+}
+.ictea{
+   display: block;
+   margin: auto;
+   margin-top: 10%;
+   width: 80%;
+   height: auto;
+}
+.ictea2{
+  display: block;
+   margin: auto;
+   margin-top: 10%;
+   margin-bottom: 10%;
+   width: 60%;
+ height: auto;
+}
+/*flags*/
+.usa{
+  display: block;
+   margin: auto;
+   margin-top: 5%;
+   margin-bottom: 10.5%;
+   width: 49%;
+ height: auto;
+}
+.mexico{
+  display: block;
+   margin: auto;
+   margin-top: 3.5%;
+   margin-bottom: 10%;
+   width: 49%;
+ height: auto;
+}
+.germany{
+  display: block;
+   margin: auto;
+   margin-top: 2%;
+   margin-bottom: 10%;
+   width: 49%;
+ height: auto;
+}
+.english{
+  display: block;
+   margin: auto;
+   margin-top: -3%;
+   width: 50%;
+ height: auto;
+}
+/* Certifications*/
+.tecmty{
+  display: block;
+   margin: auto;
+   margin-top: 5%;
+   margin-bottom: 8.5%;
+   width: 80%;
+ height: auto;
+}
+.iide{
+  display: block;
+   margin: auto;
+   margin-top: 4%;
+   margin-bottom: 4%;
+   width: 80%;
+ height: auto;
+}
+.infotec{
+  display: block;
+   margin: auto;
+   margin-top: 4%;
+   margin-bottom: 4%;
+   width: 90%;
  height: auto;
 }
 .boton{
@@ -35,6 +115,10 @@ margin-bottom: 30px;
 }
 .tec{
   width: 40%;
+}
+.cardPerfil2{
+  margin-top:30px;
+  margin-bottom: 30px;
 }
 .menu2 {
   text-align: center;
@@ -134,7 +218,12 @@ margin-left: 42%;
   width: 100%;
   margin: auto;
   }
-
+  .academics{
+    font-size: 15px;
+  }
+  .irvin{
+    width: 80%;
+  }
 }
 @media (min-width:601px) {
   .cerrar{
@@ -157,6 +246,9 @@ display: none;
   }
   .boton{
      width: 15%;
+  }
+  .irvin{
+    width: 60%;
   }
 }
 /*Tablas*/
