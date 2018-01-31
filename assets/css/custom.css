@@ -107,6 +107,31 @@ margin-bottom: 30px;
    width: 90%;
  height: auto;
 }
+/*Work*/
+.tp{
+  display: block;
+   margin: auto;
+   margin-top: 12%;
+   margin-bottom: 12.5%;
+   width: 90%;
+ height: auto;
+}
+.ita{
+  display: block;
+   margin: auto;
+   margin-top: 4%;
+   margin-bottom: 4%;
+   width: 90%;
+ height: auto;
+}
+.cceo{
+  display: block;
+   margin: auto;
+   margin-top: 8%;
+   margin-bottom: 7.5%;
+   width: 50%;
+ height: auto;
+}
 .boton{
   display: block;
    margin: auto;
